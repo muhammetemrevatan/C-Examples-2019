@@ -5,23 +5,21 @@
 
 int main(void)
 {
-	int n,a=1,sonuc,bas=0;
+	int n,dg=1,bs=0;
 	printf("bir n degeri giriniz : ");
-	scanf("%d",&n);
+	scanf("%d",&n); 
 	
-	int i;
-	
-	while(1==1) //12345678910 girilidðinde 9 sonucunu veriyor nedne 
+	while(1==1)
 	{
-		if(n % a == n)
+		if(n / dg != 0)  // 12345678910 9 veriyor neden ?
 		{
-			break;
+			bs = bs + 1;
+			dg = dg * 10;
 		}
 		else
 		{
-			bas = bas + 1;
-			a = a * 10;
+			printf("basamak sayisi = %d \n",bs);
+			break;
 		}
 	}
-	printf("%d",bas);
 }
