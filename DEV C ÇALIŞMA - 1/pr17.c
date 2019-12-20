@@ -7,7 +7,7 @@
 int main(void)
 {
 	int n;
-	int deger;
+	int deger=0;
 	printf("bir n degeri giriniz : ");
 	scanf("%d",&n);
 	
@@ -29,6 +29,6 @@ int main(void)
 	}
 	printf("%d",deger);
 	
-	
-	
+	// 32 16 8 4 2 1 9 
+	// 50 25 
 }
