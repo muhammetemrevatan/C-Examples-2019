@@ -5,9 +5,11 @@
 
 int main(void)
 {
-	int n,dg=1,bs=0;
+	long long n;
+	long long dg=1;
+	int bs=0;
 	printf("bir n degeri giriniz : ");
-	scanf("%d",&n); 
+	scanf("%ll",&n); 
 	
 	while(1==1)
 	{

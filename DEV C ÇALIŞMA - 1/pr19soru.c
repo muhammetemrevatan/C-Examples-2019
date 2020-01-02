@@ -1,4 +1,3 @@
-
 /* SORU 19) Bir integer N deðerini kullanýcýdan girmesini isteyen ve bu sayýnýn rakamlarýnýn toplamýný hesaplayarak sonucu ekrana yazdýran programý yazýnýz.  */
 	// 10 ile bölümünden kalan 1 ler basamagýný verir. 1234 % 10 == 4 yani bir ler basamagý
 	// 100 ile bmlümünden kalan 1234 % 100 == 34 tür. 34-4 = 30 / 10 = 3 bu da onlar basamagýný bulmanýn formülü..
@@ -9,11 +8,13 @@
 
 int main(void)
 {
+	a = 5;
+	b = "emre";
 	int n,dg=1,bs=0;
 	printf("bir n degeri giriniz : ");
 	scanf("%d",&n); 
 	
-	while(1==1)
+	while(1)
 	{
 		if(n / dg != 0)
 		{
